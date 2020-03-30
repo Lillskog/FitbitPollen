@@ -3,7 +3,7 @@ A Fitbit app to track pollen levels. Developed using the official Fitbit SDK.
 
 ## Getting Started
 
-The pollen data is access using the Breezometer Pollen API, thus an API key is **necessary**. Latitude and longitude are also mandatory to produce a valid API call. These coordinates are set either automatically (reading latest Fitbit position) or manually (user settings). User settings are set using the Fitbit Companion app and allows the user to add their API key, preferred position and filter desired plant types.
+The pollen data is accessed using the Breezometer Pollen API, thus an API key is **necessary**. Also latitude and longitude are necessary to produce a valid API call. These coordinates are set either automatically (reading latest Fitbit position) or manually (user settings). User settings are set using the Fitbit Companion app and allows the user to add their API key, preferred position and filter desired plant types as shown below.
 
 <img src="Pollen-screenshot.png" width="348" height="250">
 <img src="Pollen-screenshot1.png" height="350">
@@ -21,7 +21,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## TODO
 
-* Translate settings window
+* Finalize and translate(?) settings window
 * API key verification
 * Latitude and longitude verification (when set manually)
 * Specific icons for each plant type
