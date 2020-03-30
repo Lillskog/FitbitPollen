@@ -21,6 +21,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## TODO
 
+* Translate settings window
 * API key verification
 * Latitude and longitude verification (when set manually)
 * Specific icons for each plant type
