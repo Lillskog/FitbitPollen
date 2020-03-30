@@ -1,0 +1,22 @@
+<svg>
+  <use id="tile-list" href="#tile-list">
+    <use id="tile-list-head" href="#tile-list-header" class="tile-list-header">
+      <text id="header-text"></text>
+    </use>
+    <use id="item0" href="#tile-list-item" class="tile-list-item">
+      <image id="item0-icon" href="" /><text id="item0-text" text-length="64"></text>
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image id="item1-icon" href="" /><text id="item1-text" text-length="64"></text>
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image id="item2-icon" href="" /><text id="item2-text" text-length="64"></text>
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image id="item3-icon" href="" /><text id="item3-text" text-length="64"></text>
+    </use>
+        <use href="#tile-list-item" class="tile-list-item">
+      <image id="item4-icon" href="" /><text id="item4-text" text-length="64"></text>
+    </use>
+  </use>
+</svg>

@@ -1,0 +1,67 @@
+msgid "title"
+msgstr "Pollenhalter"
+
+msgid "alder"
+msgstr "Al"
+
+msgid "ash"
+msgstr "Ask"
+
+msgid "birch"
+msgstr "Björk"
+
+msgid "cottonwood"
+msgstr "Poppel"
+
+msgid "elm"
+msgstr "Alm"
+
+msgid "maple"
+msgstr "Lönn"
+
+msgid "olive"
+msgstr "Olivträd"
+
+msgid "juniper"
+msgstr "En"
+
+msgid "jpn_cedar_cypress"
+msgstr "Ceder/Cypress"
+
+msgid "oak"
+msgstr "Ek"
+
+msgid "graminales"
+msgstr "Gräs"
+
+msgid "ragweed"
+msgstr "Ambrosia"
+
+msgid "pine"
+msgstr "Tall"
+
+msgid "fetching"
+msgstr "Hämtar pollendata..."
+
+msgid "missingcoord"
+msgstr "Saknar latitud/longitud"
+
+msgid "missingapi"
+msgstr "Saknar API-nyckel"
+
+msgid "nodata"
+msgstr "Ingen data..."
+
+
+msgid "0"
+msgstr "Inga"
+msgid "1"
+msgstr "Mycket låga"
+msgid "2"
+msgstr "Låga"
+msgid "3"
+msgstr "Måttliga"
+msgid "4"
+msgstr "Höga"
+msgid "5"
+msgstr "Mycket löga"

@@ -1,0 +1,67 @@
+msgid "title"
+msgstr "Pollen Levels"
+
+msgid "alder"
+msgstr "Alder"
+
+msgid "ash"
+msgstr "Ash
+
+msgid "birch"
+msgstr "Birch"
+
+msgid "cottonwood"
+msgstr "Cottonwood"
+
+msgid "elm"
+msgstr "Elm"
+
+msgid "maple"
+msgstr "Maple"
+
+msgid "olive"
+msgstr "Olive"
+
+msgid "juniper"
+msgstr "Juniper"
+
+msgid "jpn_cedar_cypress"
+msgstr "Cedar/Cypress"
+
+msgid "oak"
+msgstr "Oak"
+
+msgid "graminales"
+msgstr "Graminales"
+
+msgid "ragweed"
+msgstr "Ragweed"
+
+msgid "pine"
+msgstr "Pine"
+
+msgid "fetching"
+msgstr "Fetching pollen data..."
+
+msgid "missingcoord"
+msgstr "Missing latitude/longitude"
+
+msgid "missingapi"
+msgstr "Missing API key"
+
+msgid "nodata"
+msgstr "No existing data..."
+
+
+msgid "0"
+msgstr "None"
+msgid "1"
+msgstr "Very low"
+msgid "2"
+msgstr "Low"
+msgid "3"
+msgstr "Moderate"
+msgid "4"
+msgstr "High"
+msgid "5"
+msgstr "Very high"
