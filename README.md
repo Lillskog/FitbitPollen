@@ -8,6 +8,11 @@ The pollen data is accessed using the Breezometer Pollen API, thus an API key is
 <img src="Pollen-screenshot.png" width="348" height="250">
 <img src="Pollen-screenshot1.png" height="350">
 
+## Languages
+Supports: English, Swedish
+Missing support: German, Spanish, French, Italian, Japanese, Korean, Dutch, Chinese (simplified), Chinese (traditional)
+
+
 ## Built With
 
 * [Fitbit SDK](https://studio.fitbit.com/) - The web framework used
@@ -21,7 +26,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## TODO
 
-* Finalize and translate(?) settings window
-* API key verification
-* Latitude and longitude verification (when set manually)
+* Translations for missing languages
+* Translate(?) settings window
 * Specific icons for each plant type
