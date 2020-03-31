@@ -52,6 +52,15 @@ msgstr "Missing API key"
 msgid "nodata"
 msgstr "No existing data..."
 
+msgid "unsupported"
+msgstr "Unsupported location"
+
+msgid "bad_request"
+msgstr "Invalid latitude/longitude"
+
+msgid "invalidapi"
+msgstr "Invalid API key"
+
 
 msgid "0"
 msgstr "None"

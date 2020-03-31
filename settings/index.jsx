@@ -2,7 +2,7 @@ function PollenSettings(props) {
   return (
     <Page>
       <Section
-        title={<Text bold align="center">Demo Settings</Text>}>
+        title={<Text bold align="center">Pollen Settings</Text>}>
         <TextInput
           label="API key"
           placeholder = "API key from Breezometer"

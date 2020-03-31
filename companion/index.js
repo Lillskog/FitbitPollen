@@ -26,6 +26,7 @@ function setCoords(lat,long) {
 
 // Fetch the pollen levels from Breezometer
 function queryOpenPollen() {
+  // CHECK SETTINGS
   let toggleValue = settingsStorage.getItem("toggle");
   if (toggleValue === "true") {
     geolocation.getCurrentPosition(locationSuccess, locationError, {maximumAge: Infinity,timeout: 6 * 1000});
@@ -55,8 +56,24 @@ function queryOpenPollen() {
     .then(function (response) {
         response.json()
         .then(function(data) {
+          let err = JSON.parse(JSON.stringify(data["error"]));
+          try {
+            if (err["code"] === "location_unsupported") {
+              statusmsg.push("unsupported")
+            }
+            else if (err["code"] === "bad_request") {
+              statusmsg.push("invalidcoord")
+            }
+            else if (err["code"] === "invalid_api_key") {
+              statusmsg.push("invalidapi")
+            }
+            returnPollenData(statusmsg);
+          }
+          catch{
           let obj = JSON.parse(JSON.stringify(data["data"]["0"]["plants"]));
           var indexarray = [];
+          //code "invalid_api_key"
+          //code "bad_request"
 
           for (var plant in obj) {
             if (obj[plant]["data_available"] && obj[plant]["in_season"]){
@@ -88,6 +105,8 @@ function queryOpenPollen() {
           }
 
           returnPollenData(indexarray);
+        }
+        finally{}
         });
     })
     .catch(function (err) {

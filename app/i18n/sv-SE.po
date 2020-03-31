@@ -52,6 +52,15 @@ msgstr "Saknar API-nyckel"
 msgid "nodata"
 msgstr "Ingen data..."
 
+msgid "unsupported"
+msgstr "Plats stöds inte"
+
+msgid "bad_request"
+msgstr "Ogiltig latitude/longitude"
+
+msgid "invalidapi"
+msgstr "Ogiltig API-nyckel"
+
 
 msgid "0"
 msgstr "Inga"
